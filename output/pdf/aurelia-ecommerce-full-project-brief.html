@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en-BD">
+<head>
+<meta charset="utf-8">
+<title>Aurelia Ecommerce Full Project Brief</title>
+<style>
+@page { size: A4; margin: 16mm 14mm; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Nirmala UI", "Segoe UI", Arial, sans-serif; color: #181512; background: #f7f2ea; font-size: 10.5pt; line-height: 1.5; }
+.page { background: #fffaf5; min-height: 100vh; }
+.cover { min-height: 260mm; padding: 30mm 18mm 18mm; background: radial-gradient(circle at 80% 10%, rgba(143,38,56,.16), transparent 30%), linear-gradient(135deg,#fffaf5,#f1e7d7); border: 1px solid #eadfce; }
+.logo { width: 52px; height: 52px; border-radius: 9px; background: #151310; color: #d6a84f; display: grid; place-items: center; font: 700 30px Georgia, serif; box-shadow: 0 12px 24px rgba(0,0,0,.16); }
+.eyebrow { display: inline-flex; align-items:center; gap: 7px; color: #8f2638; background: #fff; border: 1px solid #eadfce; border-radius: 999px; padding: 6px 10px; font-weight: 800; font-size: 9pt; text-transform: uppercase; letter-spacing: .01em; }
+h1 { font-family: Georgia, "Times New Roman", serif; font-size: 42pt; line-height: 1.04; margin: 18mm 0 8mm; color: #171512; }
+h2 { font-family: Georgia, "Times New Roman", serif; font-size: 25pt; line-height: 1.12; margin: 0 0 7mm; color: #171512; page-break-after: avoid; }
+h3 { font-size: 13pt; margin: 0 0 2mm; color: #171512; page-break-after: avoid; }
+p { margin: 0 0 4mm; color: #5f574d; }
+.muted { color: #766d63; }
+.gold { color: #a87924; }
+.maroon { color: #8f2638; }
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 5mm; }
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; }
+.card { background: rgba(255,255,255,.84); border: 1px solid #eadfce; border-radius: 9px; padding: 5mm; box-shadow: 0 10px 28px rgba(23,21,18,.06); page-break-inside: avoid; }
+.dark-card { background: #171512; color: white; border-radius: 10px; padding: 7mm; box-shadow: 0 14px 30px rgba(0,0,0,.18); page-break-inside: avoid; }
+.dark-card p, .dark-card li { color: rgba(255,255,255,.75); }
+.dark-card h2, .dark-card h3 { color: white; }
+.section { padding: 11mm 4mm 0; page-break-inside: avoid; }
+.section.break { page-break-before: always; }
+ul { margin: 2mm 0 0; padding-left: 5mm; }
+li { margin: 0 0 1.8mm; color: #4d463e; }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin-top: 10mm; }
+.kpi { background: #fff; border: 1px solid #eadfce; border-radius: 8px; padding: 4mm; text-align: center; }
+.kpi strong { display:block; font-size: 17pt; color:#171512; }
+.table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; page-break-inside: avoid; }
+.table th { background: #171512; color: #fff; text-align: left; padding: 3mm; font-size: 9pt; }
+.table td { border-bottom: 1px solid #eee2d2; padding: 3mm; vertical-align: top; color: #4d463e; }
+.badge { display:inline-block; padding: 2mm 3mm; border-radius: 999px; background: #fff6e6; color: #8b6429; font-weight: 800; font-size: 8.5pt; }
+.footer { margin-top: 10mm; padding-top: 4mm; border-top: 1px solid #e5dac9; color:#81776b; font-size: 8.5pt; display:flex; justify-content:space-between; }
+.small { font-size: 9pt; }
+</style>
+</head>
+<body>
+<div class="page">
+  <section class="cover">
+    <div class="logo">A</div>
+    <p class="eyebrow" style="margin-top:14mm;">Laravel + Vue Ecommerce Foundation</p>
+    <h1>Aurelia Premium Market<br><span class="gold">Full Project Brief</span></h1>
+    <p style="font-size:13pt; max-width:150mm;">A Bangladesh-ready single-vendor ecommerce foundation built with Laravel, Vue.js, Tailwind CSS, Font Awesome, bilingual UI, light/dark mode, customer storefront, checkout, payments, customer dashboard, admin dashboard, operations, SEO, security, backup and deployment readiness.</p>
+    <p class="muted">বাংলাদেশি মার্কেটের জন্য তৈরি একটি premium ecommerce foundation: storefront, cart, checkout, payment, delivery, admin control, SEO, security এবং deployment preparation সহ।</p>
+    <div class="kpis">
+      <div class="kpi"><strong>8</strong><span>Roadmap phases</span></div>
+      <div class="kpi"><strong>23</strong><span>Home sections planned</span></div>
+      <div class="kpi"><strong>216</strong><span>Passing tests</span></div>
+      <div class="kpi"><strong>BD</strong><span>Market focused</span></div>
+    </div>
+    <div class="footer"><span>Generated: 11 September 2026</span><span>Aurelia Premium Market</span></div>
+  </section>
+
+  <section class="section break">
+    <h2>Executive Summary</h2>
+    <div class="grid">
+      <div class="card"><h3>Project Goal</h3><p>Build a premium all-in-one ecommerce solution using Laravel backend and Vue frontend, starting from a polished homepage and growing into a complete customer/admin commerce system.</p></div>
+      <div class="card"><h3>Store Type</h3><p>Single-vendor ecommerce store with Bangladesh-first delivery, COD-first checkout, manual mobile payment flow, and SSLCommerz-ready online payment path.</p></div>
+      <div class="card"><h3>Frontend Standard</h3><p>Premium responsive UI, English/Bangla toggle, light/dark mode, Font Awesome icons, product imagery, mobile drawer navigation, and sticky ecommerce header.</p></div>
+      <div class="card"><h3>Backend Standard</h3><p>Laravel API foundation with catalog, cart, checkout, customer account, admin operations, reporting, permissions, rate limiting, backup, deployment readiness, and automated tests.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Phase By Phase Work</h2>
+    <table class="table">
+      <tr><th>Phase</th><th>Status</th><th>Main Outcome</th></tr>
+      <tr><td>Phase 0</td><td><span class="badge">Complete</span></td><td>Defined business rules: single vendor, COD first, SSLCommerz/bKash/Nagad/card priority, Bangladesh delivery zones, returns, stock, pricing, order statuses, phone/email login.</td></tr>
+      <tr><td>Phase 1</td><td><span class="badge">Complete</span></td><td>Core Laravel + Vue foundation, migrations, models, seeders, storefront architecture, demo catalog and homepage structure.</td></tr>
+      <tr><td>Phase 2</td><td><span class="badge">Complete</span></td><td>Customer flow: cart, checkout, authentication, profile, addresses, order history, tracking, returns, reviews, wishlist, support dashboard.</td></tr>
+      <tr><td>Phase 3</td><td><span class="badge">Complete</span></td><td>Admin dashboard at /admin/dashboard with catalog, orders, inventory, customers, marketing, reports, permissions, settings, and operational modules.</td></tr>
+      <tr><td>Phase 4</td><td><span class="badge">Complete</span></td><td>Payment/delivery/fulfillment foundation: COD, bKash/Nagad manual proof, SSLCommerz flow, shipments, returns, refunds, delivery zones.</td></tr>
+      <tr><td>Phase 5</td><td><span class="badge">Complete</span></td><td>Storefront dynamic behavior: product links, filters, campaign routes, category/budget/search deep links, dynamic homepage-driven sections.</td></tr>
+      <tr><td>Phase 6</td><td><span class="badge">Complete</span></td><td>Marketing and growth: newsletter leads, popular searches, homepage CMS/admin controls, reviews/wishlist insights and customer signals.</td></tr>
+      <tr><td>Phase 7</td><td><span class="badge">Complete</span></td><td>Admin polish and operational hardening: staff permissions, audit logs, settings, dashboard panels, exports, management flows.</td></tr>
+      <tr><td>Phase 8</td><td><span class="badge">Complete</span></td><td>Launch readiness: QA, security rate limits, performance code splitting, SEO metadata/schema, production headers, backup command, deployment check.</td></tr>
+    </table>
+  </section>
+
+  <section class="section break">
+    <h2>Customer Storefront Features</h2>
+    <div class="grid3">
+      <div class="card"><h3>Homepage</h3><ul><li>Announcement bar</li><li>Main header with search/cart/account</li><li>Category navigation</li><li>Hero campaign</li><li>Trust/service strip</li><li>Shop by category</li></ul></div>
+      <div class="card"><h3>Merchandising</h3><ul><li>Flash sale</li><li>Featured collections</li><li>Best sellers</li><li>Promotional banner</li><li>Popular products</li><li>New arrivals</li></ul></div>
+      <div class="card"><h3>Discovery</h3><ul><li>Official brand stores</li><li>Shop by budget</li><li>Recommended for you</li><li>Trending categories</li><li>Seasonal collection</li><li>Popular searches</li></ul></div>
+    </div>
+    <div class="grid" style="margin-top:5mm;">
+      <div class="card"><h3>Catalog</h3><p>Product listing with keyword search, category filter, brand filter, budget filter, sorting, pagination/lazy exploration, product cards, prices, ratings, wishlist, and add-to-cart actions.</p></div>
+      <div class="card"><h3>Product Detail</h3><p>Product page with gallery, variants, SKU, stock state, oversell/backorder support, delivery information, return/refund eligibility, reviews, wishlist, add to cart, and buy now.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Cart, Checkout And Payments</h2>
+    <div class="grid">
+      <div class="card"><h3>Cart</h3><ul><li>Cart drawer/page foundation</li><li>Add, update, remove, clear items</li><li>Product variant support</li><li>Cart totals and quantity state</li><li>Authenticated and guest-safe API flow</li></ul></div>
+      <div class="card"><h3>Checkout</h3><ul><li>Customer details</li><li>Shipping address</li><li>Delivery zone charge</li><li>Coupon preview</li><li>Order summary</li><li>Order placement</li></ul></div>
+      <div class="card"><h3>Payment Priority</h3><ul><li>Cash on Delivery first</li><li>SSLCommerz gateway-ready</li><li>bKash manual proof</li><li>Nagad manual proof</li><li>Card payment placeholder</li><li>Payment result page</li></ul></div>
+      <div class="card"><h3>Order Flow</h3><ul><li>Pending</li><li>Confirmed</li><li>Processing</li><li>Shipped</li><li>Delivered</li><li>Cancelled / Returned</li></ul></div>
+    </div>
+  </section>
+
+  <section class="section break">
+    <h2>Customer Account Features</h2>
+    <div class="grid3">
+      <div class="card"><h3>Authentication</h3><ul><li>Register</li><li>Login</li><li>Phone/email login support</li><li>Password update</li><li>Profile update</li><li>Logout</li></ul></div>
+      <div class="card"><h3>Dashboard</h3><ul><li>Premium customer dashboard layout</li><li>Side navigation</li><li>Orders overview</li><li>Addresses</li><li>Returns</li><li>Support tickets</li></ul></div>
+      <div class="card"><h3>Engagement</h3><ul><li>Wishlist</li><li>Product reviews</li><li>Verified purchase context</li><li>Order tracking</li><li>Mobile payment proof status</li><li>Customer care access</li></ul></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Admin Dashboard Features</h2>
+    <div class="dark-card"><h3>Admin Route</h3><p>Dedicated admin dashboard lives at <strong>/admin/dashboard</strong>. It does not use the landing page header and is protected by auth/admin middleware and permissions.</p></div>
+    <div class="grid3" style="margin-top:5mm;">
+      <div class="card"><h3>Catalog</h3><ul><li>Products</li><li>Variants</li><li>Images</li><li>Categories</li><li>Brands</li><li>Homepage sections</li></ul></div>
+      <div class="card"><h3>Operations</h3><ul><li>Orders</li><li>Payments</li><li>Inventory</li><li>Shipments</li><li>Delivery zones</li><li>Returns/refunds</li></ul></div>
+      <div class="card"><h3>Growth</h3><ul><li>Coupons</li><li>Marketing</li><li>Newsletter leads</li><li>Popular searches</li><li>Reviews</li><li>Wishlist insights</li></ul></div>
+      <div class="card"><h3>Reports</h3><ul><li>Sales reports</li><li>Customer reports</li><li>Product performance</li><li>Fulfillment reports</li><li>Payment export</li><li>Inventory alerts</li></ul></div>
+      <div class="card"><h3>Security</h3><ul><li>Admin permissions</li><li>Staff users</li><li>Audit logs</li><li>Protected API routes</li><li>Rate-limited actions</li><li>Active/inactive admin state</li></ul></div>
+      <div class="card"><h3>Settings</h3><ul><li>Store settings</li><li>Payment config surface</li><li>Delivery config</li><li>Homepage control</li><li>Operational health</li><li>Admin quick actions</li></ul></div>
+    </div>
+  </section>
+
+  <section class="section break">
+    <h2>Bangladesh Market Readiness</h2>
+    <div class="grid">
+      <div class="card"><h3>Delivery</h3><p>Bangladesh district/area based delivery zones, delivery charge rules, estimated delivery days, COD availability and fulfillment tracking.</p></div>
+      <div class="card"><h3>Returns</h3><p>Return request system with refundable/non-refundable product rules, return window support, admin review, refund context and status tracking.</p></div>
+      <div class="card"><h3>Payments</h3><p>COD-first checkout, SSLCommerz-ready online flow, bKash/Nagad manual payment proof submission and admin verification workflow.</p></div>
+      <div class="card"><h3>Localization</h3><p>English/Bangla UI toggle, Bangladesh-friendly prices in Taka, localized campaigns like Eid, Ramadan, Pohela Boishakh, monsoon, winter and back-to-school.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Technical Quality And Launch Readiness</h2>
+    <table class="table">
+      <tr><th>Area</th><th>Implemented</th></tr>
+      <tr><td>Security</td><td>Login/register/cart/checkout/newsletter/order tracking rate limits, admin auth, permissions, production headers, secure session cookie defaults.</td></tr>
+      <tr><td>Performance</td><td>Vue code splitting for below-the-fold homepage sections and route-level pages. Main JS bundle reduced from about 572.82 kB to about 119.31 kB.</td></tr>
+      <tr><td>SEO</td><td>Base Blade meta, canonical URLs, Open Graph/Twitter cards, robots handling, homepage Organization/WebSite schema, product Product/Offer schema.</td></tr>
+      <tr><td>Backup</td><td>Command: php artisan commerce:backup. SQLite local snapshot, manifest, configurable retention, production scheduler hook.</td></tr>
+      <tr><td>Deployment</td><td>Command: php artisan commerce:deploy-check. Checks app key, production flags, HTTPS, queues/cache, DB, migrations, admin, build manifest, storage link, COD, backup and SSLCommerz state.</td></tr>
+      <tr><td>Testing</td><td>Final suite: 216 passing tests and 1320 assertions.</td></tr>
+    </table>
+  </section>
+
+  <section class="section break">
+    <h2>Useful Commands</h2>
+    <div class="grid">
+      <div class="card"><h3>Run App</h3><p class="small">php artisan serve<br>npm run dev</p></div>
+      <div class="card"><h3>Build Frontend</h3><p class="small">npm.cmd run build</p></div>
+      <div class="card"><h3>Run Tests</h3><p class="small">php artisan test --compact</p></div>
+      <div class="card"><h3>Format PHP</h3><p class="small">php vendor/bin/pint --dirty --format agent</p></div>
+      <div class="card"><h3>Backup</h3><p class="small">php artisan commerce:backup</p></div>
+      <div class="card"><h3>Deploy Check</h3><p class="small">php artisan commerce:deploy-check --production</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Demo Access</h2>
+    <div class="grid">
+      <div class="card"><h3>Admin</h3><p>Email: admin@aurelia.test<br>Password: Admin@12345</p><p class="muted">Demo credential only. Change before any real production launch.</p></div>
+      <div class="card"><h3>Customer</h3><p>Email: test@example.com<br>Password: password</p><p class="muted">Seeded customer account for local testing.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Before Real Launch</h2>
+    <ul>
+      <li>Set live production domain and HTTPS certificate.</li>
+      <li>Configure production .env with APP_ENV=production, APP_DEBUG=false, APP_FORCE_HTTPS=true.</li>
+      <li>Use real database hosting and run migrations/seeds safely.</li>
+      <li>Replace demo admin/customer credentials.</li>
+      <li>Add real SSLCommerz, bKash, Nagad, mail and SMS credentials.</li>
+      <li>Configure queue workers, scheduler, backups and monitoring on the server.</li>
+      <li>Confirm real payment methods, delivery promises, return policy and support hours before showing them publicly.</li>
+    </ul>
+    <div class="footer"><span>End of brief</span><span>Phase 8 Complete</span></div>
+  </section>
+</div>
+</body>
+</html>
